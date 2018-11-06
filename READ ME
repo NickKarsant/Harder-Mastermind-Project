@@ -1,0 +1,18 @@
+
+Colors are Red, Blue, Grren or Yellow. or R, G, B, Y.
+
+Mastermind is a game where you try to guess the sequence of letters that represent colored pegs.  
+After each guess you are told the number of exact matches, meaning the correct color in the correct spot, or 
+near matches, meaning the correct color is in the sequence but not in the right location.  
+
+In the previous iteration of this game if the secret code was "BYRG" and oe of the guesses was "BYYG", 
+it would return 3 exact matches and 1 near match.  The near match happens because the Y in BYRG would count as 
+a near match for the second Y of BYYG. In my opinion, this is a less accurate and easier form of the game.
+
+My iteration of MasterMind behaves slightly differently.  If BYRG is the secret code and BYYG is the guess, 
+it will return 3 exact matches and 0 near matches.  The reason for this is that since the B, Y, and R of BYRG have been identified as
+exact matches and can no longer be refered to as a near match. There is no other Y in the secret code for the Y in our guess to be 
+a near match to since the Y in the secret code was identified as an exact match already.  Good Luck.
+
+
+
