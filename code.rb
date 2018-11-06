@@ -79,18 +79,3 @@ class Code
 
 end
 
-# code = ['g', 'r', 'y']
-# guess = [ 'y', 'y', 'y']
-
-# guess = ['y', 'y']
-
-
-# guess.delete_at(idx)
-# guess.delete_if { block }
-
-# look at pegs
-# identify exact matches
-# remove exact matches from
-# code to be run through num_near_matches = ['g', 'r']
-
-# check num_near_matches = 0
